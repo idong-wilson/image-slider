@@ -32,7 +32,7 @@ function App() {
       <div className='mt-10 md:mt-20'>
         <Slider {...settings}>
           {data.map((d) => (
-            <div key={d.name} className='max-w-[25rem] bg-white text-black rounded-xl mx-2'>
+            <div key={d.name} className='max-w-[28.12rem] bg-white text-black rounded-xl mx-2'>
               <div className='flex justify-center items-center h-56 bg-sky-500 rounded-t-xl'>
                 <img src={d.img} alt={d.name} className='h-44 w-44 rounded-full' />
               </div>
